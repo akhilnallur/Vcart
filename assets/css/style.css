@@ -4,6 +4,10 @@
 body {
     font-family: 'Josefin Sans', sans-serif !important;
 }
+
+a{
+    text-decoration: none !important;
+}
 .navbar-brand {
     font-size: 3rem !important;
 }
@@ -31,6 +35,11 @@ body {
     position: absolute;
     bottom: 25px;
     right: 30px;
+}
+
+.items{
+    width: 200px;
+    height: 55px;
 }
 
 @media screen and (max-width:750px) {
