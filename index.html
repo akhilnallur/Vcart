@@ -29,30 +29,47 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-light">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="#">Login <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-primary bg-warning px-3 rounded mr-2" href="#">Cart<span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                             <a class="nav-link text-light" href="#"></a>
                         </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">SignUp</a>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item " href="#">Smartphone</a>
+                                <a class="dropdown-item " href="#">Home Appliances</a>
+                                <a class="dropdown-item " href="#">Groceries</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item " href="#">Laptops</a>
+                                <a class="dropdown-item " href="#">SmartTV</a>
+                                <a class="dropdown-item " href="#">Voice Assistant</a>
+                                <a class="dropdown-item " href="#">Mobile Gadgets</a>
+                                <a class="dropdown-item " href="#">Accessories</a>
+                                <a class="dropdown-item " href="#">Riding Gear</a>   
+                            </div>
+                        </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Others
+                            more
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item " href="#">Pay Later</a>
-                            <a class="dropdown-item " href="#">About Us</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item " href="#">Contact</a>
+                            <a class="dropdown-item " href="#">Profile</a>
+                                <a class="dropdown-item " href="#">Pay Later</a>
+                                <a class="dropdown-item " href="#">About Us</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item " href="#">Contact</a>
+                                <a class="dropdown-item " href="#">Log Out</a>
                         </div>
                     </li>
                     <form class="form-inline my-2 my-lg-0 mx-3">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search Product..."
                             aria-label="Search">
-                        <input class="btn btn-warning text-secondary" type="submit" value="Search">
+                        <input class="btn btn-warning text-primary" type="submit" value="Search">
                     </form>
                 </ul>
 
@@ -118,7 +135,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md d-flex flex-wrap justify-content-center">
-                    <div class="card m-2 shadow" style="width: 20rem;">
+                    <div class="card m-2 border border-primary" style="width: 20rem;">
                         <img class="card-img-top rounded" src="./assets/images/buy now pay later.jpg"
                             alt="Card image cap">
                         <div class="card-body d-flex flex-column justify-content-between align-items-start">
@@ -129,7 +146,7 @@
                         </div>
                     </div>
 
-                    <div class="card m-2 shadow" style="width: 20rem;">
+                    <div class="card m-2 border border-primary" style="width: 20rem;">
                         <img class="card-img-top rounded" src="./assets/images/easy payment.jpg" alt="Card image cap">
                         <div class="card-body d-flex flex-column justify-content-between align-items-start">
                             <h2 class="card-title">Easy Payment Methods</h2>
@@ -139,7 +156,7 @@
                         </div>
                     </div>
 
-                    <div class="card m-2 shadow" style="width: 20rem;">
+                    <div class="card m-2 border border-primary" style="width: 20rem;">
                         <img class="card-img-top rounded" src="./assets/images/reward.jpg" alt="Card image cap">
                         <div class="card-body d-flex flex-column justify-content-between align-items-start">
                             <h2 class="card-title">Reward Point for Every Transaction</h2>

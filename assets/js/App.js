@@ -102,5 +102,5 @@ let categoryDisplay = document.querySelector('.category-box');
 
 category.forEach((category) => {
 
-    categoryDisplay.innerHTML += `<h6 class="items px-5 py-2 bg-info text-light rounded m-2 d-flex justify-content-center align-items-center">${category.name}</h6>`
+    categoryDisplay.innerHTML += `<h6 class="items px-5 py-2 text-light rounded m-2 d-flex justify-content-center align-items-center">${category.name}</h6>`
 })
