@@ -61,7 +61,7 @@ products.forEach((products) => {
                             src="${products.image}"
                             alt="Card image cap" class="img-fluid">
                         <div class="card-body d-flex flex-column ">
-                            <h5 class="card-title text-justify">${products.name}</h5>
+                            <h5 class="card-title">${products.name}</h5>
                             <p class="card-text mt-auto">₹ ${products.price}</p>
                             <a href="#products" class="btn addToCart btn-primary m-auto">Add to Cart</a> 
                           <div class="d-flex justify-content-between align-items-center w-75">
@@ -107,4 +107,34 @@ let categoryDisplay = document.querySelector('.category-box');
 category.forEach((category) => {
 
     categoryDisplay.innerHTML += `<h6 class="items px-5 py-2 rounded m-2 d-flex justify-content-center align-items-center">${category.name}</h6>`
+})
+
+
+let userSelected = [
+    {
+        id: 1,
+        name: "",
+        image: "",
+        price: 
+    }
+]
+
+let modalDisplay = document.querySelector('.modal-body');
+
+userSelected.forEach((products) => {
+
+    modalDisplay.innerHTML += `
+                    <div class="card m-1 shadow-lg" style="width: 15rem;">
+                        <img class="card-img-top"
+                            src="${userSelected.image}"
+                            alt="Card image cap" class="img-fluid">
+                        <div class="card-body d-flex flex-column ">
+                            <h5 class="card-title">${userSelected.name}</h5>
+                            <p class="card-text mt-auto">₹ ${userSelected.price}</p>
+                            <a href="#products" class="btn addToCart btn-primary m-auto">Add to Cart</a> 
+                            <!-- <div class="d-flex justify-content-between align-items-center w-75">-->
+                           <a  class="btn btn-primary w-25 m-auto text-light">-</a>1<a  class="btn btn-primary w-25 m-auto text-light">+</a>
+                          </div>
+                        </div>
+                    </div>`
 })
