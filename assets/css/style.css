@@ -42,7 +42,7 @@ a{
     height: 55px;
     transition: ease 0.3s;
     background: rgb(0, 110, 255);
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 .items:hover{

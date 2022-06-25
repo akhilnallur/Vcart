@@ -63,9 +63,9 @@ products.forEach((products) => {
                         <div class="card-body d-flex flex-column ">
                             <h5 class="card-title">${products.name}</h5>
                             <p class="card-text mt-auto">₹ ${products.price}</p>
-                          <!--  <a href="#products" class="btn btn-primary w-75 m-auto">Add to Cart</a> -->
+                            <a href="#products" class="btn btn-primary w-75 m-auto">Add to Cart</a> 
                           <div class="d-flex justify-content-between align-items-center w-75">
-                          <a  class="btn btn-primary w-25 m-auto text-light">-</a>1<a  class="btn btn-primary w-25 m-auto text-light">+</a>
+                          <!-- <a  class="btn btn-primary w-25 m-auto text-light">-</a>1<a  class="btn btn-primary w-25 m-auto text-light">+</a>-->
                           </div>
                         </div>
                     </div>`
