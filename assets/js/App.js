@@ -56,14 +56,14 @@ let ProductsDisplay = document.querySelector('.productList');
 products.forEach((products) => {
 
     ProductsDisplay.innerHTML += `
-                    <div class="card m-1 " style="width: 15rem;">
+                    <div class="card m-1 shadow-lg" style="width: 15rem;">
                         <img class="card-img-top"
                             src="${products.image}"
                             alt="Card image cap" class="img-fluid">
                         <div class="card-body d-flex flex-column ">
-                            <h5 class="card-title">${products.name}</h5>
+                            <h5 class="card-title text-justify">${products.name}</h5>
                             <p class="card-text mt-auto">₹ ${products.price}</p>
-                            <a href="#products" class="btn btn-primary w-75 m-auto">Add to Cart</a> 
+                            <a href="#products" class="btn addToCart btn-primary m-auto">Add to Cart</a> 
                           <div class="d-flex justify-content-between align-items-center w-75">
                           <!-- <a  class="btn btn-primary w-25 m-auto text-light">-</a>1<a  class="btn btn-primary w-25 m-auto text-light">+</a>-->
                           </div>

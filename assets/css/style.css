@@ -5,23 +5,24 @@ body {
     font-family: 'Josefin Sans', sans-serif !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
+
 .navbar-brand {
     font-size: 3rem !important;
 }
 
-#carosel{
+#carosel {
     margin-top: 8rem;
     background-color: rgb(246, 249, 255);
 }
 
-.carousel-inner{
+.carousel-inner {
     width: 100% !important;
 }
 
-.carousel-item{
+.carousel-item {
     width: 100% !important;
 }
 
@@ -30,14 +31,14 @@ a{
     width: 100% ;
 } */
 
-.scrollToTop{
+.scrollToTop {
     z-index: 1000 !important;
     position: absolute;
     bottom: 65px;
     right: 30px;
 }
 
-.items{
+.items {
     width: 200px;
     height: 55px;
     transition: ease 0.3s;
@@ -45,28 +46,69 @@ a{
     color: rgb(255, 255, 255);
 }
 
-.items:hover{
+.items:hover {
     background: #ffc107;
     color: rgb(0, 110, 255);
 }
 
-.modal-content{
+.modal-content {
     width: 55rem !important;
 }
 
-@media screen and (max-width:750px) {
-    /* .carousel-inner .carousel-item img{
-        height: 20rem;
-        padding: 0% !important;
+#features h2 {
+    font-size: 170%;
+}
+
+@media screen and (max-width:1200px) {
+    /* .card {
+        width: 10rem !important;
     } */
 }
 
+@media screen and (max-width:890px) {
+    #features h2 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:556px) {
+    .card {
+        width: 9rem !important;
+    }
+
+
+}
+
 @media screen and (max-width:420px) {
-    .footNavItem{
+    .footNavItem {
         font-size: 4vw !important;
     }
 
-    .scrollToTop i{
+    .scrollToTop i {
         font-size: 30px;
     }
+
+    .addToCart {
+        font-size: 3vw !important;
+    }
+
+    #products h1 {
+        font-size: 30px !important;
+    }
+
+}
+
+@media screen and (max-width:364px) {
+    .card {
+        width: 7rem !important;
+    }
+
+    #features p {
+        display: none;
+    }
+
+    #features .card {
+        width: 8rem !important;
+    }
+
 }
