@@ -115,8 +115,8 @@ let userSelected = [
         id: 1,
         name: "",
         image: "",
-        price: 
-    }
+        price: 12
+    },
 ]
 
 let modalDisplay = document.querySelector('.modal-body');
