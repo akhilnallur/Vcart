@@ -1,3 +1,9 @@
+body::before{
+    display: block;
+    content: "";
+    height: 120px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,500;0,700;1,600&display=swap');
 
 
@@ -11,11 +17,6 @@ a {
 
 .navbar-brand {
     width: 3rem !important;
-}
-
-#carosel {
-    margin-top: 8rem;
-    background-color: rgb(255, 164, 74);
 }
 
 .carousel-inner {
@@ -109,7 +110,6 @@ a {
     .card .card-title{
         font-size: 0.8rem !important;
     }
-
 }
 
 @media screen and (max-width:364px) {
@@ -124,5 +124,9 @@ a {
 
     .navbar-brand {
         width: 2rem !important;
+    }
+
+    body::before{
+        height: 90px;
     }
 }
