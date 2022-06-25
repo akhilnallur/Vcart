@@ -25,15 +25,15 @@ a{
     width: 100% !important;
 }
 
-.carousel-inner .carousel-item img{
+/* .carousel-inner .carousel-item img{
     height: 30rem;
     width: 100% ;
-}
+} */
 
 .scrollToTop{
     z-index: 1000 !important;
     position: absolute;
-    bottom: 25px;
+    bottom: 65px;
     right: 30px;
 }
 
@@ -42,15 +42,31 @@ a{
     height: 55px;
     transition: ease 0.3s;
     background: rgb(0, 110, 255);
+    color: blue;
 }
 
 .items:hover{
     background: #ffc107;
+    color: rgb(0, 110, 255);
+}
+
+.modal-content{
+    width: 55rem !important;
 }
 
 @media screen and (max-width:750px) {
-    .carousel-inner .carousel-item img{
+    /* .carousel-inner .carousel-item img{
         height: 20rem;
         padding: 0% !important;
+    } */
+}
+
+@media screen and (max-width:420px) {
+    .footNavItem{
+        font-size: 4vw !important;
+    }
+
+    .scrollToTop i{
+        font-size: 30px;
     }
 }
