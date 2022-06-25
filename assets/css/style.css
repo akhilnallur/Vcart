@@ -55,23 +55,15 @@ a {
     font-size: 170%;
 }
 
-@media screen and (max-width:1200px) {
-    /* .card {
-        width: 10rem !important;
-    } */
-}
 
 @media screen and (max-width:890px) {
-    #features h2 {
-        font-size: 1rem;
-    }
+
 }
 
-@media screen and (max-width:556px) {
-    .card {
-        width: 9rem !important;
+@media screen and (max-width:767px) {
+    .card .card-title{
+        font-size: 1.2rem !important;
     }
-
 
 }
 
@@ -92,15 +84,30 @@ a {
         font-size: 30px !important;
     }
 
+    #features p {
+        display: none;
+    }
+
+    .card-body{
+        padding: 0 !important;
+    }
+
+    .card-body .btn{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .card .card-title{
+        font-size: 0.8rem !important;
+    }
+
 }
 
 @media screen and (max-width:364px) {
     .card {
         width: 7rem !important;
-    }
-
-    #features p {
-        display: none;
     }
 
     #features .card {
