@@ -10,7 +10,7 @@ a {
 }
 
 .navbar-brand {
-    font-size: 3rem !important;
+    width: 3rem !important;
 }
 
 #carosel {
@@ -89,19 +89,19 @@ a {
     }
 
     .card-body{
-        padding: 0 !important;
+        padding: 2px !important;
     }
 
     .card-body .btn{
         font-size: 12px;
     }
 
-    .navbar-brand {
-        font-size: 2rem !important;
-    }
-
     .productList .card{
         width: 10.8rem !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1rem !important;
     }
 }
 
@@ -113,9 +113,6 @@ a {
 }
 
 @media screen and (max-width:364px) {
-    .card {
-        width: 7rem !important;
-    }
 
     #features .card {
         width: 8rem !important;
@@ -123,5 +120,9 @@ a {
 
     .productList .card{
         width: 9rem !important;
+    }
+
+    .navbar-brand {
+        width: 2rem !important;
     }
 }
