@@ -67,7 +67,7 @@ a {
 
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:496px) {
     .footNavItem {
         font-size: 4vw !important;
     }
@@ -96,6 +96,13 @@ a {
         font-size: 12px;
     }
 
+    .navbar-brand {
+        font-size: 2rem !important;
+    }
+
+    .productList .card{
+        width: 10.8rem !important;
+    }
 }
 
 @media screen and (max-width:390px) {
@@ -114,4 +121,7 @@ a {
         width: 8rem !important;
     }
 
+    .productList .card{
+        width: 9rem !important;
+    }
 }
